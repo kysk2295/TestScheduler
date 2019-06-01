@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="age">
+        <item>중1</item>
+        <item>중2</item>
+        <item>중3</item>
+        <item>고1</item>
+        <item>고2</item>
+        <item>고3</item>
+    </string-array>
+
+
+</resources>

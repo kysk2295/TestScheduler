@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background_gradient">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/if_calendar_1646007" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/baseline_email_white_24dp"
+            android:drawablePadding="12dp"
+            android:drawableStart="@drawable/baseline_email_white_24dp"
+            android:ems="10"
+            android:hint="E-mail"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:textColorHint="#FFF"
+            android:id="@+id/SignupActivity_edittext_email"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFF" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/baseline_lock_white_24dp"
+            android:drawablePadding="12dp"
+            android:drawableStart="@drawable/baseline_lock_white_24dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:textColorHint="#FFF"
+            android:id="@+id/SignupAcitivity_edittext_password"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFF" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/baseline_lock_white_24dp"
+            android:drawablePadding="12dp"
+            android:drawableStart="@drawable/baseline_lock_white_24dp"
+            android:ems="10"
+            android:hint="Confrim Password"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:textColorHint="#FFF"
+            android:id="@+id/SignupAcitivity_edittext_confrimpassword"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFF" />
+
+        <Button
+            style="@style/Base.TextAppearance.AppCompat.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/background_login"
+            android:clickable="true"
+            android:padding="16dp"
+            android:text="Continue"
+            android:textAllCaps="false"
+            android:textColor="@color/startRed"
+            android:textSize="18sp"
+            android:id="@+id/SignupActivity_button_next"/>
+    </LinearLayout>
+
+    </LinearLayout>
+
+

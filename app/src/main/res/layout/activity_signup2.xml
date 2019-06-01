@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signup2Activity"
+    android:orientation="vertical"
+    android:background="@drawable/background_gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/Signup2Activity_imageview_profile"
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:src="@drawable/add4"
+            app:border_width="2dp"
+            app:border_color="#FF000000"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/school2"
+            android:drawablePadding="12dp"
+            android:drawableStart="@drawable/school2"
+            android:ems="10"
+            android:hint="School"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:textColorHint="#FFF"
+            android:id="@+id/Signup2Activity_edittext_school"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFF" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/age2"
+            android:drawablePadding="12dp"
+            android:drawableStart="@drawable/age2"
+            android:ems="10"
+            android:hint="Age"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:textColorHint="#FFF"
+            android:id="@+id/Signup2Acitivity_edittext_age"
+            android:inputType="number"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFF" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/name"
+            android:drawablePadding="12dp"
+            android:drawableStart="@drawable/name"
+            android:ems="10"
+            android:hint="Name"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:textColorHint="#FFF"
+            android:id="@+id/SignupAcitivity_edittext_name"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFF" />
+
+        <Button
+            style="@style/Base.TextAppearance.AppCompat.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/background_login"
+            android:clickable="true"
+            android:padding="16dp"
+            android:text="Create account"
+            android:textAllCaps="false"
+            android:textColor="@color/startRed"
+            android:textSize="18sp"
+            android:id="@+id/Signup2Activity_button_signup"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
